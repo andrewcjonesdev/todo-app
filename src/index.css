@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.todoBox {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 370px;
+  padding: 20px;
+  background-image: linear-gradient(to right bottom, #ffffff, #555555);
+  border-radius: 7px;
+  border-style: solid;
+  border-color:#999999;
+  border-width: 2px;
+}
+
+.input {
+  width: 80%;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 2px;
+}
+
+.input:focus {
+  background-color: #d5dfeb;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #999999;
+  border-width: 2px;
+  outline: none;
+}
+
+.button {
+  border-radius: 7px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  margin-left: 5px;
+  width: 60px;
+}
+
+.button:hover {
+  background-color: #8a94d1;
+  color: white;
+}
+
+.deleteButton {
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  vertical-align: middle;
+}
